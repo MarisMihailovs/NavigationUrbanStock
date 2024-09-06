@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Urban Stock
+    </title>
+</head>
+
+<body>
+    <img src="Logo-L-Urban-Stock.svg" alt="logo" id="logo">
+    <div class="container">
+        <div class="mapContainer">
+            <div class="laktas">
+                <div id="LaktasIela">
+                    <h1>
+                        Laktas iela
+                    </h1>
+                </div>
+            </div>
+
+            <div class="mapInfo">
+                <div class="map">
+                    <svg version="1.1" id="svg1" width="2386" height="1240" viewBox="0 0 2386 1240.0001"
+                        xmlns="http://www.w3.org/2000/svg">
+
+                        <defs>
+                            <!-- Define the arrow marker, centered -->
+                            <marker id="arrow" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto"
+                                markerUnits="strokeWidth">
+                                <!-- Smaller, centered arrow -->
+                                <path d="M0,0 L6,3 L0,6 z" fill="black" />
+                            </marker>
+                        </defs>
+
+                        <g id="layer1">
+                            <!-- Rectangle for Signtech -->
+                            <rect
+                                style="opacity:0;fill:#3d5cca;fill-opacity:0.7;stroke:#ff0000;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers"
+                                id="rect1" width="115.29494" height="220.41681" x="1036.5242" y="198.94031" />
+
+                            <!-- Rectangle for Nordic Sauna -->
+                            <rect
+                                style="opacity:0;fill:#3d5cca;fill-opacity:0.7;stroke:#ff0000;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers"
+                                id="rect2" width="222.67749" height="387.70752" x="704.20343" y="27.128223" />
+
+                            <!-- Path for Signtech -->
+                            <path
+                                style="opacity:0;fill:none;stroke:rgb(188, 172, 150);stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers"
+                                d="m 1093.772,1201.0292 0.3996,-450.4817 H 2361.2857 V 105.12186 l -1267.1141,-1.13034 v 56.51713"
+                                id="path1" />
+
+                            <!-- Path for Nordic Sauna -->
+                            <path
+                                style="opacity:0;fill:none;stroke:rgb(188, 172, 150);stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers"
+                                d="M 1069.5501,1201.0328 V 750.5475 L 815.54218,747.15648 V 487.17767" id="path2" />
+                            <path
+                                style="opacity:0;fill:none;stroke:rgb(188, 172, 150);stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;;paint-order:stroke fill markers"
+                                d="m 1093.772,1201.0292 0.3996,-450.4817 H 2361.2857 V 105.12186 l -1377.32251,-1.73931 0.56518,57.1261"
+                                id="path3" />
+                            <rect
+                                style="opacity:0;fill:#3d5cca;fill-opacity:0.7;stroke:#ff0000;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke fill markers"
+                                id="rect3" width="102.96887" height="220.74242" x="933.71814" y="198.77751" />
+                        </g>
+                    </svg>
+                </div>
+                <div class="companyInfo">
+                    <h1>Company info</h1>
+                    <div class="companyData">
+                        <p>Company name: <span id="companyName"></span></p>
+                        <div><img src="" alt="" id="companyLogo" class="companyLogo"></div>
+                        <p>Phone: <span id="companyPhone"></span></p>
+                        <p>Email: <span id="companyEmail"></span></p>
+                        <p>Open hours: <span id="companyHours"></span></p>
+                    </div>
+                </div>
+            </div>
+            <h1 id="DuntesIela">
+                Duntes iela
+            </h1>
+
+        </div>
+        <div class="list">
+            <div class="a">
+                <div class="label">
+                    <h2>A</h2>
+                </div>
+                <div class="company vacant" id="A-1">
+                    <h2>A-1 Vacant</h2>
+                </div>
+                <div class="company vacant" id="A-2">
+                    <h2>A-2 Vacant</h2>
+                </div>
+            </div>
+            <div class="b">
+                <div class="label">
+                    <h2>B</h2>
+                </div>
+                <div class="company vacant" id="B-1">
+                    <h2>B-1 Vacant</h2>
+                </div>
+                <div class="company vacant" id="B-2">
+                    <h2>B-2 Vacant</h2>
+                </div>
+            </div>
+            <div class="c">
+                <div class="label">
+                    <h2>C</h2>
+                </div>
+                <div class="company vacant" id="C-1">
+                    <h2>C-1 Vacant</h2>
+                </div>
+                <div class="company vacant" id="C-2">
+                    <h2>C-2 Vacant</h2>
+                </div>
+                <div class="company" id="nordic-sauna">
+                    <h2>C3 Nordic Sauna</h2>
+                </div>
+                <div class="company" id="eleport">
+                    <h2>C-4 Eleport</h2>
+                </div>
+            </div>
+            <div class="d">
+                <div class="label">
+                    <h2>D</h2>
+                </div>
+                <div class="company vacant" id="D-1">
+                    <h2>D-1 Vacant</h2>
+                </div>
+                <div class="company" id="signtech">
+                    <h2>D2 Signtech</h2>
+                </div>
+                <div class="company vacant" id="D-3">
+                    <h2>D-3 Vacant</h2>
+                </div>
+                <div class="company vacant" id="D-4">
+                    <h2>D-4 Vacant</h2>
+                </div>
+                <div class="company vacant" id="D-5">
+                    <h2>D-5 Vacant</h2>
+                </div>
+                <div class="company vacant" id="D-6">
+                    <h2>D-6 Vacant</h2>
+                </div>
+                <div class="company vacant" id="D-7">
+                    <h2>D-7 Vacant</h2>
+                </div>
+                <div class="company vacant" id="D-8">
+                    <h2>D-8 Vacant</h2>
+                </div>
+                <div class="company vacant" id="D-9">
+                    <h2>D-9 Vacant</h2>
+                </div>
+                <div class="company vacant" id="D-10">
+                    <h2>D-10 Vacant</h2>
+                </div>
+                <div class="company vacant" id="D-11">
+                    <h2>D-11 Vacant</h2>
+                </div>
+                <div class="company vacant" id="D-12">
+                    <h2>D-12 Vacant</h2>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

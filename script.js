@@ -2,7 +2,7 @@ const companyData = [
     {
         companyId: "#signtech",
         companyName: "Signtech",
-        companyLogo: "/logos/Signtech_BW.png",
+        companyLogo: "logos/Signtech_BW.png",
         companyPhone: 29123456,
         companyEmail: "sales@signtech.com",
         companyHours: "9:00-17:00",
@@ -12,7 +12,7 @@ const companyData = [
     {
         companyId: "#nordic-sauna",
         companyName: "Nordic Sauna",
-        companyLogo: "/logos/NS.png",
+        companyLogo: "logos/NS.png",
         companyPhone: 29111222,
         companyEmail: "info@test.com",
         companyHours: "10:00-18:00",
@@ -22,7 +22,7 @@ const companyData = [
     {
         companyId: "#eleport",
         companyName: "Eleport",
-        companyLogo: "/logos/eleport.png",
+        companyLogo: "logos/eleport.png",
         companyPhone: 29111333,
         companyEmail: "info@eletest.lv",
         companyHours: "10:00-18:00",
